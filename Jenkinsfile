@@ -23,4 +23,11 @@ pipeline {
             }
         }
     }
+    post
+    {
+        always
+        {
+            emailext body: 'I\'m here', subject: 'my 2nd', to: '24caratsugar@gmail.com'
+        }
+    }
 }
