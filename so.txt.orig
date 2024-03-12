@@ -1,0 +1,6 @@
+this is cat file
+<<<<<<< HEAD
+fbr was here
+=======
+sbr was here aswell
+>>>>>>> sbr
